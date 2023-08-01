@@ -46,3 +46,15 @@ More info on 11th August 2023. Stay tuned.
 ## Why ERC-223 has any chances to get adopted?
 
 Ask yourself a question which standard is more likely to survive in a longterm: one that is burning token holders funds or the one that doesn't?
+
+## How to contribute
+
+You can contribute by posting any of the above (1) articles, (2) code samples, (3) tutorials, (4) videos, etc. We are eager to spread the word about your content if it is related to ERC-223.
+
+Feel free to [open a new issue](https://github.com/EthereumCommonwealth/ERC-223-ecosystem/issues/new) in this repo and describe what you are going to do or what you already did. It will be announced and referenced.
+
+You can also contact the author and current champion of the ERC-223 directly:
+
+- dexaran@ethereumclassic.org (email is preferrable)
+- t.me/Dexaran
+- https://twitter.com/Dexaran
