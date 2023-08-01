@@ -15,7 +15,7 @@ We can compare existing tokens and crypto assets. There are three types of trans
 - Unhandled transactions (recipient initiates the transfer without notifying the recipient)
 
 | Transaction type  | ERC-223    |  ERC-20    |
-| ------------- | ------------- |
-| Push tx       | +             |
-| Pull tx       | -             |
-| Unhandled     | -             |
+| ------------- | ------------- | ------------- |
+| Push tx       | +             | -             |
+| Pull tx       | -             | +             |
+| Unhandled     | -             | +             |
