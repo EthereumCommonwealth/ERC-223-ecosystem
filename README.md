@@ -14,8 +14,8 @@ We can compare existing tokens and crypto assets. There are three types of trans
 - Pull transactions (recipient initiates the transfer if allowed)
 - Unhandled transactions (recipient initiates the transfer without notifying the recipient)
 
-| Transaction type  | ERC-223    |  ERC-20    |
-| ------------- | ------------- | ------------- |
-| Push tx       | +             | -             |
-| Pull tx       | -             | +             |
-| Unhandled     | -             | +             |
+| Transaction type  | ERC-223    |  Ether    | ERC-20             | ERC-721 (NFT) | ERC-777 | ERC-1155 | ERC-1363 | EOS C++ token |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Push tx       | +             | +             | - | + | + | + | + | + |
+| Pull tx       | -             | -             | + | + | + | + | + | - |
+| Unhandled     | -             | -             | + | - | + | + | + | - |
