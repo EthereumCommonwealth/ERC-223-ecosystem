@@ -24,4 +24,25 @@ A good, **secure** token standard must implement push transactions and remove pu
 | Pull tx   (risky)    | -             | -             | + | + | + | + | + | - |
 | Unhandled  (insecure)   | -             | -             | + | - | + | + | + | - |
 
-There are classes of assets that behave properly and are not prone to the problems of ERC-20 standard: most notably native currencies (ether, EOS and EOS tokens). Our goal is to make Ethereum tokens similarly secure.
+There are classes of assets that behave properly and are not prone to the problems of ERC-20 standard: most notably native currencies (ether, EOS and EOS tokens). Our goal is to make Ethereum tokens similarly secure and ERC-223 does exactly this.
+
+## You can contribute to the development of the new standards - you can be the first
+
+Standard development is a rather cumbersome task, but there are also many related tasks that must be solved:
+
+- Writing code examples. There are [OpenZeppelin ERC-20 examples](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20) and ERC-20 tokens would benefit from having a set of "template codes" and extensions.
+- Guidelines and tutorials. If you are capable of understanding the standard and the documentation - you can write the guidelines and tutorials for others.
+- Content making. Videos, articles, posts on social media - everything counts.
+- Just giving a star to the repo would also help.
+
+We all know the importance of "being the first" in our new industry. The first crypto is still the largest by market cap. This is a chance to be "the first" in a new area that will emerge in the future: the area of newer tokens.
+
+## Isn't it encouraging enough? How about a lifetime share from ERC-223 token trades on a DEX?
+
+We are building a ERC-223 compatible decentralized exchange. We have already built [this one](https://app.soy.finance/swap) but we plan to construct an exchange with margin trading support for Ethereum mainnet - and it will support ERC-223 tokens.
+
+More info on 11th August 2023. Stay tuned.
+
+## Why ERC-223 has any chances to get adopted?
+
+Ask yourself a question which standard is more likely to survive in a longterm: one that is burning token holders funds or the one that doesn't?
