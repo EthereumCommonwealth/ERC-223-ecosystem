@@ -1,5 +1,13 @@
 # Call to action: we are building safer ecosystem for Ethereum tokens
 
+## ERC-223
+
+- [Original discussion thread, 2017](https://github.com/ethereum/eips/issues/223)
+- [ERC-223](https://eips.ethereum.org/EIPS/eip-223)
+- [ERC-223 Token contract source code](https://github.com/Dexaran/ERC223-token-standard)
+
+## Call to action
+
 The repo is created to coordinate the efforts of pushing ERC-223 adoption. We believe that Ethereum needs secure token standards and ERC-20 is not the best candidate for this role.
 
 ERC-20 is designed in a way that it's direct transactions can not be handled by the recipient - which means there is no way to handle user mistakes or any transaction errors. Error handling is a critical part for a secure digital asset standard and ERC-223 solves this problem.
