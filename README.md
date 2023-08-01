@@ -18,7 +18,7 @@ It should be noted that if your standard implements one way of transaction handl
 
 A good, **secure** token standard must implement push transactions and remove pull & unhandled transactions for the safety of users in a decentralized trustless environment.
 
-| Transaction type  | ERC-223    |  Ether    | ERC-20             | ERC-721 (NFT) | ERC-777 | ERC-1155 | ERC-1363 | EOS C++ token |
+| Transaction type  | [ERC-223](https://eips.ethereum.org/EIPS/eip-223)   |  Ether    | [ERC-20](https://eips.ethereum.org/EIPS/eip-20)             | [ERC-721 (NFT)](https://eips.ethereum.org/EIPS/eip-721) | [ERC-777](https://eips.ethereum.org/EIPS/eip-777) | [ERC-1155](https://eips.ethereum.org/EIPS/eip-1155) | [ERC-1363](https://eips.ethereum.org/EIPS/eip-1363) | [EOS C++ token](https://github.com/EOSIO/eosio.contracts/blob/master/contracts/eosio.token/src/eosio.token.cpp) |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Push tx       | +             | +             | - | + | + | + | + | + |
 | Pull tx   (risky)    | -             | -             | + | + | + | + | + | - |
