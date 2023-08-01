@@ -21,5 +21,5 @@ A good, **secure** token standard must implement push transactions and remove pu
 | Transaction type  | ERC-223    |  Ether    | ERC-20             | ERC-721 (NFT) | ERC-777 | ERC-1155 | ERC-1363 | EOS C++ token |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Push tx       | +             | +             | - | + | + | + | + | + |
-| Pull tx       | -             | -             | + | + | + | + | + | - |
-| Unhandled     | -             | -             | + | - | + | + | + | - |
+| Pull tx   (risky)    | -             | -             | + | + | + | + | + | - |
+| Unhandled  (insecure)   | -             | -             | + | - | + | + | + | - |
