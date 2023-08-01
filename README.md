@@ -14,6 +14,10 @@ We can compare existing tokens and crypto assets. There are three types of trans
 - Pull transactions (recipient initiates the transfer if allowed)
 - Unhandled transactions (recipient initiates the transfer without notifying the recipient)
 
+It should be noted that if your standard implements one way of transaction handling (either push or pull transactions) then there is no reason to support another. Credit cards are good example of pull transactions - they do work, but definitely not in trustless decentralized systems. Pull transactions are not suitable for a class of decentralized assets like tokens and these are potentially risky. Unhandled transactions are straight up insecure.
+
+A good, **secure** token standard must implement push transactions and remove pull & unhandled transactions for the safety of users in a decentralized trustless environment.
+
 | Transaction type  | ERC-223    |  Ether    | ERC-20             | ERC-721 (NFT) | ERC-777 | ERC-1155 | ERC-1363 | EOS C++ token |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Push tx       | +             | +             | - | + | + | + | + | + |
