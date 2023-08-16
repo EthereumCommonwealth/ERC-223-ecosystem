@@ -15,7 +15,7 @@ ERC-20 is designed in a way that it's direct transactions can not be handled by 
 
 ## Why ERC-223?
 
-ERC-223 is to make token simple and transaction execution straightforward. There is already one asset in the Ethereum network that meets all security requirements and has existed since the very foundation of the network - ether, the native currency of Ethereum chain. ERC-223 makes tokens behave similar to ethere.
+The main idea of ERC-223 is to make token simple and transaction execution straightforward. There is already one asset in the Ethereum network that meets all security requirements and has existed since the very foundation of the network - ether, the native currency of Ethereum chain. ERC-223 makes tokens behave similar to ethere.
 
 We can compare existing tokens and crypto assets. There are three types of transactions:
 
