@@ -31,7 +31,7 @@ A good, **secure** token standard must implement push transactions and remove pu
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Push tx       | +             | +             | - | + | + | + | + | + |
 | Pull tx   (risky)    | -             | -             | + | + | + | + | + | - |
-| Unhandled  (insecure)   | -             | -             | + | - | + | + | + | - |
+| Unhandled  (insecure)   | -             | -             | + | - | + | - | + | - |
 
 There are classes of assets that behave properly and are not prone to the problems of ERC-20 standard: most notably native currencies (ether, EOS and EOS tokens). Our goal is to make Ethereum tokens similarly secure and ERC-223 does exactly this.
 
